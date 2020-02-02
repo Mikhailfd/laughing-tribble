@@ -10,14 +10,19 @@ public class z6 {
         System.out.println("Введите годовой процент");
         int proc = scan.nextInt();
         System.out.println("На какой год хотите узнать итоговую сумму?");
-        int years=scan.nextInt();
-   double sum=startSum;
-        for(int n=1; n<=years; n++){
-            sum+=((startSum*proc)/100)-(startSum*0.01);
+        int years = scan.nextInt();
+        double sum = startSum;
+        if (startSum > 0 && proc > 0 && years > 0) {
+            for (int n = 1; n <= years; n++) {
+                sum += ((startSum * proc) / 100) - (startSum * 0.01);
+            }
+            System.out.println("Через " + (years) + " лет сумма будет равна " + (sum));
+
+        } else {
+            System.out.println("Введены некорректные данные");
         }
-        System.out.println("Через " +  (years) + " лет сумма будет равна "+ (sum));
 
     }
+}
 
-    }
 
