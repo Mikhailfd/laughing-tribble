@@ -14,9 +14,9 @@ public class z6 {
         double sum = startSum;
         if (startSum > 0 && proc > 0 && years > 0) {
             for (int n = 1; n <= years; n++) {
-                sum += ((startSum * proc) / 100) - (startSum * 0.01);
+                 cash =cash + cash*proc/100 -startSum*0.01;
             }
-            System.out.println("Через " + (years) + " лет сумма будет равна " + (sum));
+            System.out.println("Через " + (years) + " лет сумма будет равна " + (cash));
 
         } else {
             System.out.println("Введены некорректные данные");
