@@ -9,10 +9,10 @@ public class z5 {
         int a = scan.nextInt();
         System.out.println("Введите степень целого числа");
         int n = scan.nextInt();
-        int result = 1;
+        int result = a;
 
-            for (int i = 0; i < n; ++i) {
-                result = result * a;
+            for (int i = 1; i < n; ++i) {
+                result *= a;
 
             }
 
