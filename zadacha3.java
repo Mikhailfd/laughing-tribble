@@ -10,19 +10,17 @@ public class z3 {
         {
             System.out.println("Вам лучше одеть куртку");
         }
-        else if(t>=10 && t<=15)
+        else if(t<15)
         {
             System.out.println("Вам лучше одеть ветровку");
         }
-        else if(t>=16 && t<=20){
+        else if(t<20){
             System.out.println("Вам лучше одеть свитер");
         }
-        else if(t>=21 && t<=30){
-            System.out.println("Вам лучше одеть майку");
-        }
-        else if (t>30)
+        
+        else 
         {
-            System.out.println("Вы хорошо одеты");
+            System.out.println("Майка");
         }
     }
 
