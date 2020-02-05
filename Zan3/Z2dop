@@ -1,0 +1,19 @@
+package jo.e.wssw.d.zanjatie2.zanjatie3;
+
+public class Z2dop {
+    public static void main(String[] args){
+       int mass[]=new int[6];
+        mass[0]=5; mass[1]=10; mass[2]=20; mass[3]=40; mass[4]=45; mass[5]=50;
+
+        if((mass.length)%2==0){
+            double a=mass[mass.length/2];
+            double b=mass[(mass.length/2)-1];
+            System.out.println  (("Медиана из " + (mass.length)+ " чисел = " + ((a+b)/2)));
+        }
+       else{
+            System.out.println ("Медиана из " + (mass.length) + " чисел = " + mass[mass.length/2]);
+        }
+
+
+    }
+}
