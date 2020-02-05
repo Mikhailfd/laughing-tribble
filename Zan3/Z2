@@ -1,0 +1,13 @@
+package jo.e.wssw.d.zanjatie2.zanjatie3;
+
+public class Z2 {
+    public static void main(String[] args){
+        int mass[] = new int[10];
+        mass[0]=5; mass[1]=10; mass[2]=6; mass[3]=1; mass[4]=8; mass[5]=3; mass[6]=7; mass[7]=2;mass[8]=12; mass[9]=28;
+        double sum=0;
+        for (int i=0; i<10;i++){
+            sum+=mass[i];
+        }
+        System.out.println("Сумма всех элементов массива =" + sum+"; Среднее значение = " + (sum/mass.length));
+
+    }
