@@ -2,7 +2,7 @@ ackage home.lesson8;
 import java.io.*;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-public class SintaxAnalizator {
+public class Calcul{
     public static void main(String[] args) throws ParserException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Schet myParser = new Schet();
