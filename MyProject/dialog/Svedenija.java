@@ -38,11 +38,7 @@ public class Svedenija {
     private static final String DELETE_NAME =
             "delete from Clienti  where name = ?;";
     private static final String DELETE_NAME1 =
-            "delete from Tovari  where name = ?;";
-    private static final String DELETE_NAME2 =
-            "delete from Store  where idZakaza = ?;";
-    private static final String DELETE_NAME3 =
-            "delete from Tovari  where nazvanie = ?;";
+            "delete from Tovari  where nazvanie = ?;"
 
 
     public List<Clienti> getAll() throws SQLException {
@@ -135,7 +131,7 @@ public class Svedenija {
     public void saveNewTovari(Tovarinfo form1) throws SQLException {
 
         if (isNamePersists(form1.getname())) {
-            System.err.println("Имя уже существует");
+            System.err.println("Наименование уже существует");
             return;
         }
 
