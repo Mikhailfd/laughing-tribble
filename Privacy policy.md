@@ -1,4 +1,4 @@
-privacy policy
+Privacy policy
 
 User Consent By using this application you accept the provisions of this Privacy Policy. By providing information for the application, you agree to the collection and 
 use of information in accordance with the Privacy Policy.
